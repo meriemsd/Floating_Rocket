@@ -1,0 +1,110 @@
+body{
+    display: flex;
+    justify-content: center;
+
+    background: rgb(197,235,255);
+    background: linear-gradient(4deg, rgba(197,235,255,1) 0%, rgba(0,101,178,1) 49%, rgba(0,2,9,1) 100%);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    position: absolute; 
+    animation: floating 5s ease-in-out infinite;
+}
+
+.bodie{
+    display: flex;
+    justify-content: center;
+    background-color: white; 
+    border-radius: 500px / 800px;
+    border-top-left-radius: 00px ;
+    border-top-right-radius: 00px ;
+    width: 100px;
+    height: 200px;
+}
+
+
+.top{
+    
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(169, 38, 38);
+    width: 0px;
+    height: 200px;
+}
+
+.window{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 5px solid  rgb(169, 38, 38); 
+    background-color: rgb(200, 226, 245);
+    margin-top: 10px;
+}
+
+.wigs{
+    display: flex;
+    align-items: center;
+
+}
+
+.wig2{
+    margin-top: 400px;
+    background-color: rgb(169, 38, 38);
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 80%;
+    width: 50px;
+    height: 100px;
+}
+
+.wig1{
+    margin-left: 150px;
+    margin-top: 400px;
+    background-color: rgb(169, 38, 38);
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 80%;
+    width: 50px;
+    height: 100px;
+}
+
+
+.fire{
+    display: flex;
+    justify-content: center1;
+    margin-left: 150px;
+    margin-top: 520px;
+    background-color: rgb(246, 111, 0);
+    border-top-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    transform: rotate(-25deg);
+    width: 50px;
+    height: 100px;
+    position: absolute; 
+    animation: floating 5s ease-in-out infinite;
+}
+
+
+.smallfire{
+    background-color: rgb(255, 213, 0);
+    border-top-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    width: 40px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+
+@keyframes floating {
+    0%{top: 33%;}
+    30%{top: 40%;}
+    50%{top:33%;}
+    70%{top:25%;}
+    100%{top:33%;}
+}
+
